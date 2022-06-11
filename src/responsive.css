@@ -18,6 +18,10 @@
         flex-direction: column;
 
     }
+    .navbar_Logo_invisible h1{
+        margin: 0;
+        font-size: 20px;
+    }
     .navbar_center{
         display: none;
     }
@@ -59,10 +63,9 @@
         width: 25px !important;
         height: 25px !important;
     }
-    .footer{
-        flex-direction: column;
     
-    }    
+    
+    
     .filter_size select{
         display: none;
     }
@@ -78,8 +81,110 @@
         width: auto !important;
         font-size: 12px !important;
     }
+    .login_wrapper{
+        width: 80% !important;
+    }
+    .register_wrapper{
+        width: 80% !important;
+    }
+    .cart_container{
+        flex-direction: column;
+        padding: 10px !important;
+    }
+    .cart_item{
+        flex-direction: column;
+    }
+    .cart_item_info{
+        margin-left: 0 !important;
+        padding: 20px 0;
+    }
+    .cart_item_title , .cart_Item_price{
+        font-size: 15px  !important;
+    }
             
+    .cart_item_desc{
+        font-size: 12px;
+    }
+    .item_item_quantity::before{
+        content: 'quantity  :';
+        font-size: 14px !important;
+        font-weight: 500;
+    }
+    .item_item_quantity{
+        margin: 10px 0 !important
+    }
+    .cart_item img{
+        height: auto !important;
+    }
+    .productdetails{
+        flex-direction: column;
+        height: auto !important;
+        padding: 10px !important;
+       
+    }
+    .prod_img img{
+        max-height: 370px !important;
+    }
+    .prod_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .prod_title{
+        font-size: 21px !important;
+    }
+    .price{
+        font-size: 19px !important;
+    }
+    .prod_desc {
+        font-size: 12px !important;
+        padding-right: 0 !important;
+    }
+    .prod_filter{
+        width: auto !important;
+        justify-content: flex-start !important;
+
+
+    }
+    .prod_color{
+        margin-right: 10px !important;
+    }
+    .add_cart{
+        padding: 8px 25px !important;
+    }
+    .footer {
+        flex-direction: column;
+
+    }
+    .footer_left_title{
+        font-size: 24px !important;
+    }
+    .footer_desc{
+        font-size: 12px !important;
+        padding-bottom: 5px !important;
+    }
+    .footer_left_title{
+        font-size: 26px !important;
+    }
+    .Footer_contact_icon span{
+        font-size: 14px !important;
+    }
+    .footer_left,
+    .footer_center,
+    .footer_right{
+        padding: 5px 10px !important;
+
+    }
+    .footer h3{
+        font-size: 16px;
+        margin: 10px 0 !important;
+    }
+    .footer_center ul li{
+        font-size: 12px !important;
+    }
 }
+
 
 
 

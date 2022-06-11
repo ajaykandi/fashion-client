@@ -1,6 +1,6 @@
 .CategoryItem{
     flex: 1;
-    margin: 3px;
+    margin: 10px;
     height: 70vh;
     position: relative;
     min-width: 300px;

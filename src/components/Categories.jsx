@@ -4,7 +4,8 @@ import CategoryItem from "./CategoryItem";
 const categories_container = {
   display: `flex`,
   padding: `20px`,
-  justifyContent: `space-between`,
+  paddingTop: 0,
+  justifyContent: `center`,
   flexWrap: `wrap`,
 };
 const categories_container_title = {
